@@ -14,5 +14,10 @@
             Cor = cor;
             QuantidadeMovimento = 0;
         }
+
+        public void IncrementarQuantidadeMovimento()
+        {
+            QuantidadeMovimento++;
+        }
     }
 }
